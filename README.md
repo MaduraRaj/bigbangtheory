@@ -1,6 +1,13 @@
+Making file executable
 ```
 chmod +x sheldon1
+```
+Execute the file
+```
 ./sheldon1
+```
+Open with gdb
+```
 gdb sheldon1
 info function
 disassemble main
@@ -32,6 +39,4 @@ disassemble phase_1
 	Welcome to my fiendish little bomb. You have 6 phases with
 	which to blow yourself up. Have a nice day!
 	Public speaking is very easy.
-	------------------------------------------------------------------
- ```
-	
+```
