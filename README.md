@@ -136,6 +136,9 @@ es             0x2b                43
 fs             0x0                 0
 gs             0x63                99
 ```
+Once we’ve arrived at the comparison statement, we can use the i r command to see the contents of our registers. %eax, which is the register to which our value is being compared, is equal to 2. Therefore, the second integer in our passphrase should be 2.
+
+The simplest way to solve this level completely is by continuing to step through the code, seeing what %eax is equal to after each iteration. Next you’ll find 6, then 24, then 120 followed by 720. If you’re really smart, however, you’ll notice that the assembly code is actually implementing the following algorithm:```
 
 
 
