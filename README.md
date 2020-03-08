@@ -115,6 +115,27 @@ Getting the type of values that we have to inset
 ```
 (gdb) x/s 0x8049b1b
 0x8049b1b:	"%d %d %d %d %d %d"
-(gdb) 
+```
+Getting the register values
+```
+(gdb) i r
+eax            0x804b6d0           134526672
+ecx            0xffffffee          -18
+edx            0x804b6d1           134526673
+ebx            0xffffd1a4          -11868
+esp            0xffffd0b0          0xffffd0b0
+ebp            0xffffd0d8          0xffffd0d8
+esi            0xf7faa000          -134569984
+edi            0xf7faa000          -134569984
+eip            0x8048b50           0x8048b50 <phase_2+8>
+eflags         0x286               [ PF SF IF ]
+cs             0x23                35
+ss             0x2b                43
+ds             0x2b                43
+es             0x2b                43
+fs             0x0                 0
+gs             0x63                99
+```
+
 
 
