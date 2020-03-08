@@ -42,7 +42,7 @@ disassemble phase_1
 	Public speaking is very easy.
 ```
 Level 2
-```
+
 Disassembling Phase_2
 ```
 (gdb) disassemble phase_2
